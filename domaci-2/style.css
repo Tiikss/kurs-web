@@ -14,5 +14,10 @@ h1 {
     padding: 8px 0;
 }
 
-
+.time time {
+    text-align: center;
+    background-color: rgba(141, 120, 73, 0.5);
+    text-transform: uppercase;
+    margin: 0 520px;
+}
 
