@@ -8,5 +8,11 @@ h1 {
     font-weight: bold;
 }
 
+.time {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 8px 0;
+}
+
 
 
