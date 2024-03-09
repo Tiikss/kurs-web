@@ -47,3 +47,11 @@ blockquote {
   font-size: 25px;
   font-weight: bold;
 }
+
+blockquote::after {
+  content: '"';
+}
+
+blockquote::before {
+  content: '"';
+}
