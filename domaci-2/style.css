@@ -24,28 +24,26 @@ h1 {
     font-weight: bold;
 }
 
-.firstdiv {
+article {
     column-count: 3;
     column-gap: 20px; 
     width: 100%;
     margin: 0 auto;
     position: relative;
     margin-top: 25px;
+    text-align: justify;
+    column-rule: solid;
 }
 
-.firstdiv::after, .firstdiv::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 1px;
-    background: #000; 
-  }
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 24px;
+}
 
-  .firstdiv::before {
-    left: 33.333%;
-  }
-  
-  .firstdiv::after {
-    left: 66.666%; 
-  }
+blockquote {
+  column-span: all;
+  font-size: 25px;
+  font-weight: bold;
+}
