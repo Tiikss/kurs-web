@@ -10,7 +10,8 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 38px;
+  font-size: 64px;
+  margin: 0;
 }
 
 .time {
@@ -42,8 +43,9 @@ article {
 h2 {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 29px;
+  font-size: 38px;
   margin-top: 15px;
+  margin-bottom: 0;
 }
 
 blockquote {
@@ -68,6 +70,7 @@ h3 {
 
 ul {
   list-style-type: '☕ ';
+  margin-top: 0;
 }
 
 figure {
@@ -84,10 +87,15 @@ figure img {
 figcaption {
   font-size: 12px;
   text-align: center;
+  font-weight: bold;
 }
 
 h1, h2, h3 {
   font-family: "Anek Telugu", sans-serif;
   font-weight: bold;
   font-style: normal;
+}
+
+#p1 {
+  margin-top: 0;
 }
