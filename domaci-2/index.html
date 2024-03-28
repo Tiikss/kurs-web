@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newspaper</title>
+    <link href="style.css" rel="stylesheet"></link>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100..800&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Fjalla+One&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Newspaper Title</h1>
@@ -13,11 +18,11 @@
   <article>
     <h2>Article heading</h2>
     <div class="author">John Doe</div>
-    <p>Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+    <p id="firstp">Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
       ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur est at
       lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur
       adipiscing elit. Curabitur blandit tempus porttitor.</p>
-    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Cum
+    <p id="secondp">Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Maecenas faucibus mollis interdum. Cum
       sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus vel
       augue laoreet rutrum faucibus
       dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
@@ -25,7 +30,7 @@
       Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
       risus.
     </blockquote>
-    <p>Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
+    <p id="thirdp">Aenean lacinia bibendum nulla sed consectetur. Duis mollis, est non commodo luctus, nisi erat porttitor ligula,
       eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Cras justo odio, dapibus ac
       facilisis in, egestas eget
       quam. Cras mattis consectetur purus sit amet fermentum. Nullam id dolor id nibh ultricies vehicula ut id elit.
@@ -44,16 +49,16 @@
       venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed
       consectetur.</p>
     <h3>Subheading</h3>
-    <figure>
-      <img src="https://raw.githubusercontent.com/michaelgearon/Tiny-CSS-Projects/main/chapter-04/after/image.jpg" alt="">
-      <figcaption>Golden Gate Bridge</figcaption>
-    </figure>
-    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem
+    <p id="p1">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem
       lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Aenean lacinia bibendum
       nulla sed consectetur. Integer
       posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia
       quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Morbi leo
+    <figure class="content-block">
+      <img src="https://raw.githubusercontent.com/michaelgearon/Tiny-CSS-Projects/main/chapter-04/after/image.jpg" alt="">
+      <figcaption>Golden Gate Bridge</figcaption>
+    </figure>
+      <p class="content-block">Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitur blandit tempus porttitor. Morbi leo
       risus, porta ac consectetur ac, vestibulum at eros. Duis mollis, est non commodo luctus, nisi erat porttitor
       ligula, eget lacinia odio sem
       nec elit.</p>
