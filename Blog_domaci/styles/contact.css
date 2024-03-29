@@ -150,3 +150,19 @@ textarea {
     border: 1px solid black;
 }
 
+#lbl-name {
+    padding: 7px 0;
+}
+
+#lbl-email {
+    padding: 7px 0;
+}
+
+#lbl-mess {
+    padding: 7px 0;
+}
+
+#submit {
+    margin-top: 20px;
+    background-color: rgba(71, 47, 29, 0.486);
+}
