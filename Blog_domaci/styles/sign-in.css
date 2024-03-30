@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #472f1d;
+}
+
+a {
+    text-decoration: none;
+    color: #2769b5;
+}
+
+/* Header area */
+
+.padding-nav {
+    padding: 16px 10%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.container .nav {
+    background-color: #472f1d7c;
+    border-bottom: 1px solid #472f1d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .nav img {
+    height: 50px;
+}
+
+.container .nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container .nav ul li {
+    display: inline-block;
+    margin-right: 16px;
+}
+
+.container .nav ul li:last-child {
+    margin-right: 0;
+}
+
+.container .nav ul li a {
+    padding: 4px 8px;
+    color: #472f1d;
+}
+
+.container .nav ul li a:hover {
+    border-bottom: 1px solid #472f1d;
+}
+
+.padding-footer {
+    padding: 16px 10%;
+}
+
+.footer {
+    border-top: 1px solid #000;
+    background-color: #fff;
+}
+
+.footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #a2a2a2;
+    font-weight: 200;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.footer .footer-logo {
+    width: 50%;
+    font-size: 14px;
+}
+
+.footer .footer-col {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer .footer-col p {
+    margin-bottom: 16px;
+}
+
+.footer .footer-col i {
+    margin-right: 8px;
+}
+
+.footer .footer-logo img {
+    width: 120px
+}
+
+.footer .copyright {
+    padding: 18px 10%;
+}
+
+.main {
+    margin: 50px auto;
+    background-color: rgba(250, 235, 215, 0.68);
+    padding: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+form {
+    display: grid;
+}
+
+.sign-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+form label {
+    padding: 10px 0; 
+}
+
+form input {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.sign-submit {
+    margin-top: 30px;
+    color: white;
+    background-color: #472f1d;
+}
