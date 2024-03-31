@@ -152,7 +152,7 @@ form input {
 }
 
 section {
-    background-color: #f2f2f25c;
+    background-color: rgba(255, 255, 255, 0.402);
     width: 500px;
     height: 350px;
     border-radius: 10px;
