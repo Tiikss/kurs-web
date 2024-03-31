@@ -115,14 +115,6 @@ a {
     padding: 18px 10%;
 }
 
-.main {
-    margin: 50px auto;
-    background-color: rgba(250, 235, 215, 0.68);
-    padding: 50px;
-    border-radius: 10px;
-    border: 1px solid black;
-}
-
 form {
     display: grid;
 }
@@ -146,4 +138,23 @@ form input {
     margin-top: 30px;
     color: white;
     background-color: #472f1d;
+} 
+
+.main {
+    background-size: cover;
+    background-image: url("../images/photo-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+section {
+    background-color: #f2f2f25c;
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 30px 15px;
 }
