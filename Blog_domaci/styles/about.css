@@ -225,3 +225,7 @@ a {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transform: scale(1.1);
 }
+
+.divs-div input:hover {
+    background-color: #472f1d;
+}
