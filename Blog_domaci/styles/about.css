@@ -130,7 +130,7 @@ a {
 
 #first-div {
     display: flex;
-    margin: 30px 50px;
+    padding: 30px 100px;
     background-color: white;
 }
 
@@ -159,6 +159,30 @@ a {
 
 .second-div {
     display: flex;
+    background-color: #472f1d85;
+    padding: 30px 100px;
+}
+
+.div2 {
+    display: grid;
+    margin-right: 20px;
+}
+
+.div2 h1 {
+    text-align: left;
+}
+
+.div2 p {
+    text-align: justify;
+}
+
+.div2 input {
+    width: 100px;
+    border-radius: 50px;
+    border: 1px solid black;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
     background-color: #472f1d85;
 }
 
