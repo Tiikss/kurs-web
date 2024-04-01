@@ -186,3 +186,40 @@ a {
     background-color: #472f1d85;
 }
 
+.cards {
+    display: flex;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 64px 0;
+}
+
+.cards .card {
+    width: 200px;
+    height: 250px;
+    margin: 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.347);
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    align-content: center;
+}
+
+.title-meet {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.card h2, h3, p{
+    text-align: center;
+}
+
+
