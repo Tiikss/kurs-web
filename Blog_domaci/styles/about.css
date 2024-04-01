@@ -147,8 +147,9 @@ a {
     text-align: justify;
 }
 
-.div1 input {
+.div1 button {
     width: 100px;
+    height: 50px;
     border-radius: 50px;
     border: 1px solid black;
     display: block;
@@ -176,8 +177,9 @@ a {
     text-align: justify;
 }
 
-.div2 input {
+.div2 button {
     width: 100px;
+    height: 50px;
     border-radius: 50px;
     border: 1px solid black;
     display: block;
@@ -226,6 +228,6 @@ a {
     transform: scale(1.1);
 }
 
-.divs-div input:hover {
+.divs-div button:hover {
     background-color: #472f1d;
 }
