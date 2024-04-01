@@ -201,7 +201,6 @@ a {
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.347);
     overflow: hidden;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     align-content: center;
 }
 
@@ -222,4 +221,7 @@ a {
     text-align: center;
 }
 
-
+.card:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: scale(1.1);
+}
