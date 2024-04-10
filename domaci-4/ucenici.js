@@ -1,6 +1,6 @@
-'use strict'
+"use strict"
 
-let ucenici = [
+const ucenici=[
     {
       ime: "Ana",
       prezime: "Kovačević",
@@ -134,4 +134,17 @@ let ucenici = [
   ]
 
 
-  
+ucenici.forEach(function(element){
+    element.IzracunajProsjek=() => {
+        let zbir=0;
+        let br_predmeta=0;
+        for(const [key, value] of Object.entries(element["ocjene"])){
+            zbir=zbir+value;
+            br_predmeta++;
+        }
+        return zbir/br_predmeta;
+    }   
+    element.prosjek=element.IzracunajProsjek();
+})
+
+console.log(ucenici);
