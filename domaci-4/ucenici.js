@@ -182,4 +182,35 @@ ucenici.forEach(function(element){
 // console.log(ucenici);
 // ucenici[0].uspjeh();
 
+function statistikaUspjeha(niz){
+    let br_odl=0;
+    let br_vd=0;
+    let br_dobar=0;
+    let br_dov=0;
+    let br_ned=0;
+    let usp="";
 
+    niz.forEach(function(element){
+        if(element["prosjek"]>=4.5 && element["prosjek"]<=5)
+            br_odl++;
+        else if(element["prosjek"]<4.5 && element["prosjek"]>=3.5)
+            br_vd++;
+        else if(element["prosjek"]<3.5 && element["prosjek"]>=2.5)
+            br_dobar++;
+        else if(element["prosjek"]<2.5 && element["prosjek"]>=1.5)
+            br_dov++;
+        else
+            br_ned++;
+    })
+
+    const rez={
+        odlican:br_odl,
+        vrlo_dobar:br_vd,
+        dobar:br_dobar,
+        dovoljan:br_dov,
+        nedovoljan:br_ned
+    };
+    return rez;
+}
+
+console.log(statistikaUspjeha(ucenici));
