@@ -213,4 +213,11 @@ function statistikaUspjeha(niz){
     return rez;
 }
 
-console.log(statistikaUspjeha(ucenici));
+// console.log(statistikaUspjeha(ucenici));
+
+function sortirajUcenike(niz){
+    const sortiraj=ucenici.sort((a, b) => a.prezime.localeCompare(b.prezime));
+    return sortiraj;
+}
+
+console.log(sortirajUcenike(ucenici));
