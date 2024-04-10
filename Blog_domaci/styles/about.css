@@ -231,3 +231,137 @@ a {
 .divs-div button:hover {
     background-color: #472f1d;
 }
+
+@media only screen and (max-width: 600px) {
+    .container .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .nav img {
+        margin-bottom: 16px;
+    }
+
+    .container .nav ul li {
+        margin: 0;
+        display: block;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    .footer div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .footer-logo p {
+        text-align: center;
+    }
+
+    .footer .footer-col {
+        margin-bottom: 20px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .footer-col p {
+        margin-bottom: 16px;
+    }
+
+    .footer .footer-col i {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    body {
+        width: inherit;
+    }
+
+    .divs-div {
+        width: inherit;
+        padding: 0;
+    }
+
+    #first-div {
+        width: inherit;
+        display: grid;
+        padding: 24px;
+    }
+
+    #first-div img {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .div1 {
+        width: inherit;
+    }
+
+    .div1 h1 {
+        padding-bottom: 10px;
+    }
+
+    .div1 p {
+        padding-bottom: 20px;
+        width: auto;
+    }
+
+    .second-div {
+        width: inherit;
+        display: grid;
+        padding: 24px;
+    }
+
+    .second-div img {
+        width: 100%;
+    }
+
+    .div2 h1 {
+        padding-bottom: 10px;
+    }
+
+    .div2 p {
+        padding-bottom: 20px;
+        width: auto;
+    }
+
+    .div2 a {
+        padding-bottom: 20px;
+    }
+
+    .metting {
+        display: grid;
+        width: inherit;
+    }
+
+    .title-meet {
+        padding: 0 30px;
+    }
+
+    .title-meet h1 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    .title-meet p {
+        font-size: 20px;
+    }
+
+    .divs-div p {
+        font-size: 24px;
+    }
+
+    .divs-div h1 {
+        font-size: 28px;
+    }
+
+    .divs-div button {
+        width: 120px;
+        padding: 12px;
+        font-size: 16px;
+    }
+}
