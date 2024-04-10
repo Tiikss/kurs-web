@@ -133,7 +133,6 @@ const ucenici=[
     }
   ]
 
-
 ucenici.forEach(function(element){
     element.IzracunajProsjek=() => {
         let zbir=0;
@@ -147,4 +146,40 @@ ucenici.forEach(function(element){
     element.prosjek=element.IzracunajProsjek();
 })
 
-console.log(ucenici);
+// console.log(ucenici);
+
+ucenici.forEach(function(element){
+    const pr=element.prosjek;
+    const mz=element.pol;
+    let uspjeh="";
+    if(mz==="ženski"){
+        if(pr<=5 && pr>=4.5)
+            uspjeh="odlična";
+        else if(pr<4.5 && pr>=3.5)
+            uspjeh="vrlo dobra";
+        else if(pr<3.5 && pr>=2.5)
+            uspjeh="dobra";
+        else if(pr<2.5 && pr>=1.5)
+            uspjeh="dovoljna";
+        else
+            uspjeh="nedovoljna";
+    }
+    else{
+        if(pr<=5 && pr>=4.5)
+            uspjeh="odličan";
+        else if(pr<4.5 && pr>=3.5)
+            uspjeh="vrlo dobar";
+        else if(pr<3.5 && pr>=2.5)
+            uspjeh="dobar";
+        else if(pr<2.5 && pr>=1.5)
+            uspjeh="dovoljan";
+        else
+            uspjeh="nedovoljan";
+    }
+    element.uspjeh=() => console.log(`${element["ime"]} ${element["prezime"]} je`, uspjeh);
+})
+
+// console.log(ucenici);
+// ucenici[0].uspjeh();
+
+
