@@ -71,3 +71,14 @@
     display : none;
 }
 
+#power p {
+    font-size: 22px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+#bank p {
+    font-size: 22px;
+    padding-bottom: 5px;
+    padding-left: 24px;
+}
