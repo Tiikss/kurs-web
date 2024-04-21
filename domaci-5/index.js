@@ -111,7 +111,6 @@ document.addEventListener('keydown', function(e) {
         if(soundObject){
             const audio=new Audio(soundObject.url);
             audio.volume=sliderVol.value*0.01;
-            volVal.innerText=sliderVol.value;
             audio.play();
         }
     }
@@ -138,7 +137,6 @@ function playClick(element){
         if(soundObject){
             const audio=new Audio(soundObject.url);
             audio.volume=sliderVol.value*0.01;
-            volVal.innerText=sliderVol.value;
             audio.play();
         }
     }
@@ -153,3 +151,6 @@ function playClick(element){
     }
 }
 
+sliderVol.addEventListener('input', ()=>{
+    volVal.innerText=sliderVol.value;
+})
