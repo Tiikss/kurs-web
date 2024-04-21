@@ -13,8 +13,11 @@
 }
 
 #other {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     padding-left: 100px;
+    align-items: center;
+    text-align: center;
 }
 
 #buttons {
@@ -26,25 +29,26 @@
 }
 
 #buttons button {
-    background-color: gray;
-    color: black;
+    background-color: yellow;
+    color: blueviolet;
     font-size: 50px;
     border: none;
     border-radius: 10px;
-    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.795);
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.379);
 }
 
 .toggle {
     position : relative;
     width: 100px;
     height: 52px;
-    background-color: red;
+    background-color: blueviolet;
     border-radius: 30px;
-    border: 2px solid gray;
+    border: 2px solid black;
     display: flex;
     font-size: 22px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 42px;
 }
        
 .toggle:after {
@@ -53,7 +57,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: gray;
+    background-color: black;
     top: 0; 
     left: 0;
     transition:  all 0.5s;
@@ -64,7 +68,7 @@
 }
        
 .checkbox:checked + .toggle {
-    background-color: green;
+    background-color: yellow;
 }
        
 .checkbox { 
@@ -74,11 +78,60 @@
 #power p {
     font-size: 22px;
     padding-bottom: 5px;
-    padding-left: 20px;
 }
 
 #bank p {
     font-size: 22px;
     padding-bottom: 5px;
-    padding-left: 24px;
 }
+
+#heater {
+    background-color: yellow;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px 100px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+#slider-div{
+    width: 300px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: yellow;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-bottom: 25px;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: blueviolet;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: blueviolet;
+    cursor: pointer;
+  }
+
+  #slider-div p {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
